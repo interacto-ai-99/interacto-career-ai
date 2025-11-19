@@ -51,11 +51,11 @@ const Footer = () => {
         </div>
         
         <div className="pt-8 border-t border-border/40 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>© 2024 Interacto AI. All rights reserved.</p>
+          <p>© 2025 Interacto AI. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-foreground transition-colors">Twitter</a>
+            {/* <a href="#" className="hover:text-foreground transition-colors">Twitter</a> */}
             <a href="#" className="hover:text-foreground transition-colors">LinkedIn</a>
-            <a href="#" className="hover:text-foreground transition-colors">GitHub</a>
+            {/* <a href="#" className="hover:text-foreground transition-colors">GitHub</a> */}
           </div>
         </div>
       </div>
