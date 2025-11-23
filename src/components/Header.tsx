@@ -31,9 +31,9 @@ const Header = () => {
             {/* <Button variant="ghost" className="hidden sm:inline-flex">
               Sign In
             </Button> */}
-            <Button>
+            {/* <Button>H
               Apply for Internship
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

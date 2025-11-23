@@ -16,22 +16,22 @@ const CTA = () => {
             Start your free trial today—no credit card required.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+          <div className="flex flex-col gap-4 items-center pt-4">
             <Button 
               size="lg" 
               variant="secondary"
-              className="text-lg group shadow-xl hover:shadow-2xl transition-all bg-white hover:bg-white/90"
+              className="text-lg group shadow-xl hover:shadow-2xl transition-all bg-white hover:bg-white/90 px-8 py-7"
+              asChild
             >
-              Start Free Trial
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <a href="mailto:interacto.ai.99@gmail.com" className="flex items-center gap-3">
+                <div className="flex flex-col items-start gap-1">
+                  <span className="font-bold">Partner With Us</span>
+                  <span className="text-sm font-semibold text-primary">📧 interacto.ai.99@gmail.com</span>
+                </div>
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
-            {/* <Button 
-              size="lg" 
-              variant="outline"
-              className="text-lg border-white text-white hover:bg-white hover:text-primary"
-            >
-              Schedule a Demo
-            </Button> */}
+            <p className="text-white/80 text-sm">Click to send us an email or reach out directly</p>
           </div>
           
           {/* <div className="flex items-center justify-center gap-8 pt-8 text-white/90">

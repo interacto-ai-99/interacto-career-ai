@@ -16,25 +16,38 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-              Transform Your Career with{" "}
+              Transform Your Students' Careers with{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
                 Interacto AI
               </span>
             </h1>
             
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Empower your job search with AI-driven resume optimization, personalized interview prep, 
-              and direct connections to opportunities. Built for ambitious students ready to stand out.
+              Empower your college students with AI-driven resume optimization, personalized interview prep, 
+              and direct connections to opportunities. Help your institution build job-ready graduates who stand out in the competitive market.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="text-lg group shadow-lg hover:shadow-xl transition-all">
-                Get Started Free
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button size="lg" variant="outline" className="text-lg">
-                Watch Demo
-              </Button>
+            <div className="flex flex-col gap-4">
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-primary rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-300"></div>
+                <Button size="lg" className="relative text-lg shadow-lg hover:shadow-xl transition-all py-6" asChild>
+                  <a href="mailto:interacto.ai.99@gmail.com" className="flex items-center gap-3">
+                    <div className="flex flex-col items-start">
+                      <span className="font-bold">Partner With Us</span>
+                      <span className="text-xs font-normal opacity-90">Contact: interacto.ai.99@gmail.com</span>
+                    </div>
+                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  </a>
+                </Button>
+              </div>
+              
+              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 text-sm">
+                <div className="flex items-center gap-1.5 bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-400 px-3 py-1.5 rounded-full border border-green-200 dark:border-green-800">
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span className="font-medium">Limited Offer: 1 Month Free for first 5 customers</span>
+                </div>
+                <span className="text-muted-foreground ml-1">Perfect for placement cells & career development centers</span>
+              </div>
             </div>
             
             <div className="flex items-center gap-8 pt-4">
@@ -48,10 +61,10 @@ const Hero = () => {
                 <div className="text-sm text-muted-foreground">Success Rate</div>
               </div>
               <div className="h-12 w-px bg-border" />
-              <div>
+              {/* <div>
                 <div className="text-3xl font-bold text-foreground">500+</div>
                 <div className="text-sm text-muted-foreground">Partner Companies</div>
-              </div>
+              </div> */}
             </div>
           </div>
           
